@@ -1,0 +1,32 @@
+.logo {
+  height: 30px;
+  width: 30px;
+  padding: 10px;
+}
+
+input {
+  padding: 20px;
+  box-shadow: 1px 1px 5px #BCB4B4;
+  font-family: Circular;
+}
+
+.nav_links {
+  display: flex;
+  float: right;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.sub_nav {
+  padding: 20px;
+}
+
+
+.plus {
+  padding: 20px;
+}
+
+
+body {
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
