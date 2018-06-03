@@ -1,32 +1,29 @@
-.logo {
-  height: 30px;
-  width: 30px;
-  padding: 10px;
+body, html {
+    height: 100%;
 }
 
-input {
-  padding: 20px;
-  box-shadow: 1px 1px 5px #BCB4B4;
-  font-family: Circular;
+.parallax {
+    /* The image used */
+    background-image: url('stars.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.nav_links {
-  display: flex;
-  float: right;
-  justify-content: space-between;
-  padding: 40px;
+h1 {
+  background-color: #57918C;
+  border: 0;
+  margin: 0;
 }
-
-.sub_nav {
-  padding: 20px;
-}
-
-
-.plus {
-  padding: 20px;
-}
-
 
 body {
-  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: white;
+  text-align: center;
 }
